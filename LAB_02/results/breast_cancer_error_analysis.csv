@@ -1,0 +1,4 @@
+Result_Type,count
+True Negative (TN),72
+True Positive (TP),39
+False Negative (FN - Missed Cancer!),3

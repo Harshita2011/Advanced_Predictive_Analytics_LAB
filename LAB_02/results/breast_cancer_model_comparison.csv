@@ -1,0 +1,5 @@
+Model Name,Accuracy,Recall (Sensitivity),Precision,F1-Score,ROC-AUC Score,Brier Loss Score
+Baseline (Dummy),0.5965,0.4048,0.4474,0.425,0.5565,0.4035
+Basic Decision Tree,0.9035,0.8333,0.8974,0.8642,0.8889,0.0965
+Tuned Decision Tree,0.9211,0.8333,0.9459,0.8861,0.902,0.0791
+Random Forest,0.9737,0.9286,1.0,0.963,0.997,0.0285

@@ -1,0 +1,5 @@
+Result_Type,count
+True Negative (TN),27
+True Positive (TP),26
+False Positive (FP - False Alarm),6
+False Negative (FN - Missed Disease!),2
