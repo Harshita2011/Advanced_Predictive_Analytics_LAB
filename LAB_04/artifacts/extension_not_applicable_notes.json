@@ -1,0 +1,10 @@
+{
+  "temporal_drift_extension": {
+    "status": "NOT APPLICABLE",
+    "reason": "No timestamp/date field exists in Dataset A; no chronological holdout is constructible."
+  },
+  "bert_text_extension": {
+    "status": "NOT APPLICABLE",
+    "reason": "No free-text field exists in Dataset A; converting categorical columns into artificial sentences to justify BERT usage is explicitly discouraged by the manual."
+  }
+}

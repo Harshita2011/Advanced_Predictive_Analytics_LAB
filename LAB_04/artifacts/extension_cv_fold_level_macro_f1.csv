@@ -1,0 +1,11 @@
+model,fold,macro_f1
+ComplementNB_extension,1,0.4191814980261298
+ComplementNB_extension,2,0.4001776389572166
+ComplementNB_extension,3,0.4115162877967991
+ComplementNB_extension,4,0.4202213623482647
+ComplementNB_extension,5,0.4160072933077849
+LogisticRegression_extension,1,0.5159659777570335
+LogisticRegression_extension,2,0.4795281356834347
+LogisticRegression_extension,3,0.4970604599046944
+LogisticRegression_extension,4,0.47363844122332405
+LogisticRegression_extension,5,0.4967082475341169

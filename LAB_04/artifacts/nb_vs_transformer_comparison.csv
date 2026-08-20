@@ -1,0 +1,3 @@
+model,macro_f1,weighted_f1,accuracy,train_time_seconds,parameter_count
+CategoricalNB_mixed (core baseline),0.48528393969993966,0.4954911555490408,0.5117719950433705,,
+"FT-Transformer (feature-tokenizer, 2-layer, d_model=32)",0.5173839036503337,0.5260021945854116,0.5353159851301115,29.54576063899998,26948.0

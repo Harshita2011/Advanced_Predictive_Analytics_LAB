@@ -1,0 +1,9 @@
+{
+  "model": "CategoricalNB_mixed (core-selected)",
+  "point_estimate_macro_f1": 0.48528393969993966,
+  "bootstrap_n": 2000,
+  "ci_95_low": 0.46143316348686225,
+  "ci_95_high": 0.5085844970717858,
+  "bootstrap_se": 0.011860172743281213,
+  "note": "Bootstrap resamples the fixed locked-test predictions post-hoc for uncertainty quantification; the test set itself is evaluated once, matching core methodology."
+}

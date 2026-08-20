@@ -1,0 +1,45 @@
+{
+  "dataset_name": "Customer Segmentation (JanataHack, Analytics Vidhya / Kaggle mirror vetrirah/customer)",
+  "source_urls": [
+    "https://www.analyticsvidhya.com/datahack/contest/janatahack-customer-segmentation",
+    "https://www.kaggle.com/datasets/vetrirah/customer"
+  ],
+  "licence_or_permission": "Kaggle competition dataset - educational/research use per Kaggle terms",
+  "record_count": 8068,
+  "feature_count": 9,
+  "class_labels": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "class_counts": {
+    "A": 1972,
+    "B": 1858,
+    "C": 1970,
+    "D": 2268
+  },
+  "missingness_percent": {
+    "ID": 0.0,
+    "Gender": 0.0,
+    "Ever_Married": 1.74,
+    "Age": 0.0,
+    "Graduated": 0.97,
+    "Profession": 1.54,
+    "Work_Experience": 10.28,
+    "Spending_Score": 0.0,
+    "Family_Size": 4.15,
+    "Var_1": 0.94,
+    "Segmentation": 0.0
+  },
+  "duplicate_ids": 0,
+  "duplicate_rows": 0,
+  "sensitive_attributes": [
+    "Gender",
+    "Ever_Married",
+    "Age"
+  ],
+  "sampling_collection_limitations": "Automobile-customer segmentation competition dataset; population is customers of an automobile brand's dealership network; segment definitions (A-D) are business-assigned and not independently documented beyond the competition description.",
+  "privacy_intended_use": "No direct identifiers beyond a synthetic numeric ID; intended for educational supervised classification exercises, not for production deployment on real customers.",
+  "dataset_hash_sha256": "4245166ea666055eaeb151aecf2d16c346cdb230749eb064949684c965bf7355"
+}

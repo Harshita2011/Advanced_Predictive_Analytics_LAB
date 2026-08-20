@@ -1,0 +1,11 @@
+{
+  "status": "PASSED",
+  "checks": [
+    "target has >=2 classes",
+    "ID excluded from predictors",
+    "train/test ID disjoint",
+    "predictions subset of training classes",
+    "model artifact reloads and reproduces predictions",
+    "all four core models present in CV results"
+  ]
+}

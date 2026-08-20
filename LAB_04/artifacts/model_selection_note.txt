@@ -1,0 +1,1 @@
+Selected 'CategoricalNB_mixed' using mean 5-fold CV macro F1 = 0.4845 (SD = 0.0101), clearly above the Dummy baseline (0.1097). Selection was made strictly from training-fold CV results before any access to the locked test set.

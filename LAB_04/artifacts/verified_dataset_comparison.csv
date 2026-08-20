@@ -1,0 +1,5 @@
+dataset,verified_source,task_target,direct_suitability,records,feature_modalities,licence_note,core_or_extension
+Dataset A - JanataHack Customer Segmentation,Analytics Vidhya / Kaggle (vetrirah/customer),"Multiclass Customer Segment (A, B, C, D)",HIGH (Assessed Core),8068,"Demographic, Socioeconomic, Behavioral",Kaggle Competition License,Core Assessed
+Dataset B - Customer Personality Analysis,Kaggle (imakash3011/customer-personality-analysis),"Campaign Response Prediction (Response ∈ {0, 1})",MODERATE (Secondary Benchmark),2240,"Demographic, Behavioral, Financial Spending",CC0: Public Domain,Extension Benchmark
+Dataset C - UCI Online Retail II,UCI ML Repository (DOI: 10.24432/C5CG6D),Transaction/RFM Recency-Frequency (Derived),RESEARCH EXTENSION (Requires two-stage target creation),1067371,"Transactional, Monetary, Temporal",CC BY 4.0,Extension (Research)
+Dataset D - UCI Bank Marketing,UCI ML Repository (Dataset 222),"Term Deposit Subscription (y ∈ {yes, no})",RELATED BENCHMARK (Mixed-type classification),45211,"Demographic, Economic, Campaign Contact",CC BY 4.0,Extension Benchmark

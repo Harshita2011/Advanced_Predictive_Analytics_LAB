@@ -1,0 +1,11 @@
+,dtype,missing_count,missing_percent,unique_count
+Gender,str,0,0.0,2
+Ever_Married,str,140,1.74,3
+Age,int64,0,0.0,67
+Graduated,str,78,0.97,3
+Profession,str,124,1.54,10
+Family_Size,float64,335,4.15,10
+Work_Experience,float64,829,10.28,16
+Var_1,str,76,0.94,8
+Spending_Score,str,0,0.0,3
+Segmentation,str,0,0.0,4

@@ -1,0 +1,6 @@
+Profile_ID,Predicted_segment,Posterior,Review_status
+NEW_001,A,0.6155,explicit_review
+NEW_002,D,0.9947,normal_review
+NEW_003,A,0.5837,explicit_review
+NEW_004,D,0.8097,normal_review
+NEW_005,D,0.9936,normal_review

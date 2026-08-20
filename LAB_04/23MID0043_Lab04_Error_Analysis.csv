@@ -1,0 +1,16 @@
+ID,Segmentation,predicted_segment,max_posterior,confidence_category,reason,consequence
+463793,A,D,0.9961951484612968,high,Adjacent-segment confusion (A vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+463940,C,D,0.9957051826024433,high,Adjacent-segment confusion (C vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+461823,C,D,0.9953896967334831,high,Adjacent-segment confusion (C vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+463314,A,D,0.9951011043266222,high,Adjacent-segment confusion (A vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+463541,B,D,0.9949372937344038,high,Adjacent-segment confusion (B vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+466360,B,D,0.9945257408817083,high,Adjacent-segment confusion (B vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+466627,C,D,0.9944028331540989,high,Adjacent-segment confusion (C vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+464501,A,D,0.9920355135828218,high,Adjacent-segment confusion (A vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+460485,B,D,0.9882134933815537,high,Adjacent-segment confusion (B vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+465634,B,D,0.9877107903323707,high,Adjacent-segment confusion (B vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+461673,C,D,0.986319575381124,high,Adjacent-segment confusion (C vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+461310,C,D,0.9860648889689296,high,Adjacent-segment confusion (C vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+461332,C,D,0.9856384167215991,high,Adjacent-segment confusion (C vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+460228,A,D,0.9856384167215991,high,Adjacent-segment confusion (A vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.
+466610,A,D,0.9854454525394382,high,Adjacent-segment confusion (A vs D); overlapping demographic/behavioral profiles.,High-confidence misclassification - most costly; would drive a confident but wrong action.

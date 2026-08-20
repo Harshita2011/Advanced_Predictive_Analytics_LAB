@@ -1,0 +1,13 @@
+{
+  "dataset_name": "Dataset B - Customer Personality Analysis (Kaggle imakash3011/customer-personality-analysis)",
+  "verified_source": "https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis",
+  "record_count": 2240,
+  "feature_count": 13,
+  "target_name": "Response",
+  "class_distribution": {
+    "0": 1902,
+    "1": 338
+  },
+  "best_cv_model": "Dummy_most_frequent",
+  "best_cv_macro_f1": 0.4591982657645845
+}

@@ -1,0 +1,6 @@
+attribute,group,n,macro_f1,macro_recall,insufficient_sample
+Gender,Female,690,0.48231654820902115,0.497165544972642,False
+Gender,Male,924,0.4849739948900339,0.4992321316235775,False
+Ever_Married,No,676,0.3418018749531603,0.3749704308103924,False
+Ever_Married,Yes,909,0.3902365288457356,0.3965342270085604,False
+Ever_Married,nan,29,,,True

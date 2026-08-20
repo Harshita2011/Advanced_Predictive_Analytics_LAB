@@ -1,0 +1,18 @@
+{
+  "model": "FT-Transformer (feature-tokenizer, 2-layer, d_model=32)",
+  "macro_f1": 0.5173839036503337,
+  "weighted_f1": 0.5260021945854116,
+  "accuracy": 0.5353159851301115,
+  "per_class_recall": {
+    "A": 0.4213197969543147,
+    "B": 0.33602150537634407,
+    "C": 0.5583756345177665,
+    "D": 0.7775330396475771
+  },
+  "train_time_seconds": 29.54576063899998,
+  "inference_latency_ms_per_record": 0.03722332156135696,
+  "parameter_count": 26948,
+  "epochs_run": 36,
+  "best_val_macro_f1": 0.5371671638115045,
+  "device": "cpu"
+}

@@ -1,0 +1,11 @@
+{
+  "label_definition": "Segmentation (A, B, C, D) is a business-assigned customer segment supplied by the competition organiser (an automobile company). The exact rule used to construct the segment is NOT disclosed in the public dataset documentation.",
+  "circularity_check": "No predictor column is a deterministic transform of Segmentation and none of the predictors are timestamped after label assignment (no timestamps exist in this dataset). No feature name suggests it directly encodes the historical segmentation rule.",
+  "psychographic_measurement_provenance": {
+    "Var_1": "Anonymised categorical code (Cat_1..Cat_7) of undisclosed meaning, provided by the competition organiser. Provenance is UNKNOWN (could be self-reported, survey-derived, or externally assigned) - treated with extra caution and NOT presented as ground truth."
+  },
+  "behavioral_measurement_provenance": {
+    "Spending_Score": "Business-assigned categorical spending indicator (Low/Average/High), most likely derived from observed purchase/transaction behaviour rather than self-report; exact derivation is undocumented."
+  },
+  "caveat": "Because the true label-construction rule is undisclosed, this dataset is used here as a pedagogical example of leakage-safe Naive Bayes classification, not as a validated real-world deployment case."
+}
