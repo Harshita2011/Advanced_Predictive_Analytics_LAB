@@ -1,0 +1,6 @@
+Model,Representation,Macro F1,Weighted F1,Accuracy,CV Macro F1,CV SD,Training Time,Inference Latency,Parameters,Model Size (MB)
+Logistic Regression,Word TF-IDF (1-2gram),0.561,0.5759,0.593,0.6071,0.0025,29.0s,0.884s,N/A,N/A
+LinearSVC,Word TF-IDF (1-2gram),0.5684,0.5799,0.585,0.621,0.0037,7.3s,0.617s,N/A,N/A
+Char TF-IDF + LinearSVC,Char TF-IDF (2-5gram),0.59,0.6025,0.6072,0.6386,0.0037,14.7s,2.070s,N/A,N/A
+BiLSTM,Embedding + BiLSTM,0.585,0.5947,0.5948,N/A,N/A,104.0s,1.133s,2667267,30.57
+Twitter-RoBERTa,Transformer (125M),0.7188,0.7166,0.7174,N/A,N/A,1079.5s,22.844s,124647939,2860.23

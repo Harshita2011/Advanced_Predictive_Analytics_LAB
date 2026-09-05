@@ -1,0 +1,55 @@
+{
+  "classical_pipeline": {
+    "model": "LinearSVC",
+    "original_preds": [
+      0,
+      1,
+      0,
+      2,
+      1
+    ],
+    "reloaded_preds": [
+      0,
+      1,
+      0,
+      2,
+      1
+    ],
+    "match": true
+  },
+  "bilstm": {
+    "original_preds": [
+      0,
+      1,
+      1,
+      2,
+      1
+    ],
+    "reloaded_preds": [
+      0,
+      1,
+      1,
+      2,
+      1
+    ],
+    "match": true
+  },
+  "transformer": {
+    "status": "NOT EXECUTED",
+    "reason": "Unrecognized model in outputs_dataset1/models/transformer_checkpoint_s42. Should have a `model_type` key in its config.json."
+  },
+  "true_labels": [
+    1,
+    1,
+    1,
+    2,
+    0
+  ],
+  "texts": [
+    "<USER> <USER> what do these '1/2 naked pics' have to do with anything? They're not even like that.",
+    "OH: \u201cI had a blue penis while I was this\u201d [playing with Google Earth VR]",
+    "<USER> <USER> That's coming, but I think the victims are going to be Medicaid recipients.",
+    "I think I may be finally in with the in crowd #mannequinchallenge #grads2014 <USER>",
+    "<USER> Wow,first Hugo Chavez and now Fidel Castro. Danny Glover, Michael Moore, Oliver Stone, and Sean Penn are running out of heroes."
+  ]
+}

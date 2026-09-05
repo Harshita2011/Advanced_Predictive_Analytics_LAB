@@ -1,0 +1,3 @@
+Split,Model,Macro F1,Weighted F1,Accuracy,Macro F1 Change
+Random (70/15/15 stratified),LinearSVC,0.7468,0.8056,0.8128,0.0
+Temporal (80% early / 20% late),LinearSVC,0.7138,0.7632,0.7763,-0.033

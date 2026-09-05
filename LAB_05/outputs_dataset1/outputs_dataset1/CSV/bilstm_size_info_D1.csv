@@ -1,0 +1,2 @@
+Model,Total Parameters,Trainable Parameters,Model Size (MB),Inference Latency (ms/sample),Vocab Size,Embedding Dim,LSTM Units,Max Seq Len
+BiLSTM (seed 42),2667267,2667267,30.57,0.878,20000,128,64,27

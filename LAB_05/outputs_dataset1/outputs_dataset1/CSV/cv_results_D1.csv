@@ -1,0 +1,4 @@
+Model,CV Macro F1 Mean,CV Macro F1 SD,CV Weighted F1 Mean,CV Weighted F1 SD,CV Training Time (s)
+MultinomialNB,0.5796,0.0043,0.6199,0.0035,13.695
+Logistic Regression,0.6071,0.0025,0.6527,0.0038,28.793
+LinearSVC,0.621,0.0037,0.6545,0.0033,14.937

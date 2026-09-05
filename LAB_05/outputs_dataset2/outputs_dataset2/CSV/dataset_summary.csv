@@ -1,0 +1,4 @@
+Metric,Value
+Total samples,14640
+Number of classes,3
+Class names,"['negative', 'neutral', 'positive']"

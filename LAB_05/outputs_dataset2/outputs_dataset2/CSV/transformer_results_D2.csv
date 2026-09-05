@@ -1,0 +1,2 @@
+Model,Model ID,Seed,Max Seq Len,Batch Size,Learning Rate,Weight Decay,Epochs,Parameters,Model Size (MB),Training Time (s),Inference Time (s),Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted F1
+Twitter-RoBERTa,cardiffnlp/twitter-roberta-base-sentiment-latest,42,128,16,2e-05,0.01,3,124647939,2860.19,355.2,4.61,0.8593,0.8125,0.819,0.8157,0.8602

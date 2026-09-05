@@ -1,0 +1,6 @@
+Challenge Type,Count,LinearSVC Accuracy,LinearSVC Macro F1,BiLSTM Accuracy,BiLSTM Macro F1
+negation,1296,0.5586,0.5344,0.5602,0.523
+emoji_heavy,6025,0.5892,0.5809,0.6073,0.6036
+hashtag_heavy,2632,0.6003,0.5546,0.5889,0.5594
+short_ambiguous,286,0.6538,0.5802,0.6434,0.5812
+slang,164,0.5183,0.5117,0.6159,0.609

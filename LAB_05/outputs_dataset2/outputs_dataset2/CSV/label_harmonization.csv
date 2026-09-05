@@ -1,0 +1,3 @@
+Dataset,Label_0,Label_1,Label_2,Source,Compatible
+D1 (tweet_eval),negative,neutral,positive,cardiffnlp/tweet_eval,True
+D2 (US Airline),negative,neutral,positive,Tweets.csv,True

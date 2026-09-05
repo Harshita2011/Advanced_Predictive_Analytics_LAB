@@ -1,0 +1,55 @@
+{
+  "classical_pipeline": {
+    "model": "LinearSVC",
+    "original_preds": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "reloaded_preds": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "match": true
+  },
+  "bilstm": {
+    "original_preds": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "reloaded_preds": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "match": true
+  },
+  "transformer": {
+    "status": "NOT EXECUTED",
+    "reason": "Unrecognized model in outputs_dataset2/models/transformer_checkpoint_s42. Should have a `model_type` key in its config.json."
+  },
+  "true_labels": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "texts": [
+    "<USER> cleaning a regional jet takes an hour?",
+    "<USER> again HORRIBLE service, again attitude when asked for information, again you make me not want to fly UNITED ever. #platinummember",
+    "<USER> I can legitimately say that I would have rather driven cross country than flown on US Airways.",
+    "<USER> Is your BWI-SJD service seasonal? Wasn't part of extension. Called intl desk. They didn't know. Want to fly in Sept on Sat.",
+    "<USER> is there another line I can call when I am on hold for 5 hours? Also how can I get compensated for this loss of time and money?"
+  ]
+}

@@ -1,0 +1,5 @@
+Source,Target,Model,Macro F1,Weighted F1,Accuracy,Drop vs Within
+D2 (airline),D2 (within),LinearSVC,0.7468,0.8056,0.8128,0.0
+D2 (airline),D1 (tweet_eval),LinearSVC,0.4246,0.4243,0.4553,0.3222
+D1 (tweet_eval),D1 (within),LinearSVC,0.5684,0.5799,0.585,0.0
+D1 (tweet_eval),D2 (airline),LinearSVC,0.5338,0.5401,0.5287,0.0346

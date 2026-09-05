@@ -1,0 +1,2 @@
+Threshold,Total Test Samples,Auto-Accepted,Human-Review,Coverage (%),Auto-Accepted Accuracy,Auto-Accepted Error Rate,Human-Review Rate (%)
+0.95,2196,237,1959,10.8,0.9873,0.0127,89.2

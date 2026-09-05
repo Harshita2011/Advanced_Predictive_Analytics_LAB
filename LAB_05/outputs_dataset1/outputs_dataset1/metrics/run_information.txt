@@ -1,0 +1,24 @@
+Dataset: cardiffnlp/tweet_eval - sentiment
+Number of samples: 59899
+Number of classes: 3
+Labels: ['negative', 'neutral', 'positive']
+Random seed: 42
+Device: GPU
+Train samples: 45615
+Validation samples: 2000
+Test samples: 12284
+Python version: 3.13.15 (main, Aug  6 2026, 11:06:23) [GCC 11.4.0]
+TensorFlow: 2.20.0
+
+BiLSTM Config:
+  Vocab size: 20000
+  Max seq length: 27
+  Embedding dim: 128
+  LSTM units: 64
+  Dropout: 0.3
+  Batch size: 64
+  Best epoch: 2
+  Training time: 104.0s
+
+Best model: BiLSTM
+Best Macro F1: 0.5850

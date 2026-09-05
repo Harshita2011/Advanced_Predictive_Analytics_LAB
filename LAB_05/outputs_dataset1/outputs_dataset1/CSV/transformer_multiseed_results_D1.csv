@@ -1,0 +1,4 @@
+Seed,Test Macro F1,Test Weighted F1,Test Accuracy,Training Time (s),Inference Time (s),Parameters,Reason
+42,0.7188,0.7166,0.7174,1079.5,22.84,124647939,
+123,NOT EXECUTED,NOT EXECUTED,NOT EXECUTED,NOT EXECUTED,NOT EXECUTED,124647939,TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'
+2026,NOT EXECUTED,NOT EXECUTED,NOT EXECUTED,NOT EXECUTED,NOT EXECUTED,124647939,TrainingArguments.__init__() got an unexpected keyword argument 'evaluation_strategy'

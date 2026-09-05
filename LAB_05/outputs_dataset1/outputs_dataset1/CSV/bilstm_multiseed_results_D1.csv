@@ -1,0 +1,4 @@
+Seed,Best Epoch,Val Macro F1,Test Macro F1,Test Weighted F1,Test Accuracy,Training Time (s),Inference Time (s),Parameters
+42,2,0.6511,0.585,0.5947,0.5948,41.4,1.4614,2667267
+123,1,0.6375,0.5896,0.6062,0.6132,32.6,1.7684,2667267
+2026,1,0.6378,0.5652,0.5784,0.5882,35.8,1.5114,2667267
