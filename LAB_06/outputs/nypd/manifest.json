@@ -1,0 +1,70 @@
+{
+  "dataset": "NYPD Complaint Data - Current (Year To Date)",
+  "dataset_url": "https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243",
+  "access_date": "2026-09-01",
+  "date_col": "CMPLNT_FR_DT",
+  "location_col": "BORO_NM",
+  "location_value": "BROOKLYN",
+  "second_location_value": "MANHATTAN",
+  "category_col": "OFNS_DESC",
+  "category_value": null,
+  "frequency": "W-MON",
+  "test_periods": 12,
+  "valid_year_min": 2026,
+  "seed": 42,
+  "student_name": "Harshita",
+  "registration_number": "23MID0043",
+  "course_code": "MDI3003",
+  "faculty": "Dr. Durgesh Kumar, Assistant Professor (Senior), SCOPE, VIT Vellore",
+  "semester": "Fall Semester 2026-2027",
+  "n_total_periods_core_location": 87,
+  "n_train": 75,
+  "n_test": 12,
+  "ar_lags": 4,
+  "arima_candidate_orders": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      3,
+      1,
+      1
+    ]
+  ],
+  "selected_arima_order": [
+    2,
+    1,
+    2
+  ],
+  "sarima_seasonal_order": [
+    1,
+    0,
+    1,
+    4
+  ],
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "generated_utc": "2026-09-07T04:53:14.539284+00:00"
+}

@@ -1,0 +1,16 @@
+Item,Record
+Dataset name/version/access date,NYPD Complaint Data - Current (Year To Date) / accessed 2026-09-01
+Source URL,https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Current-Year-To-Date-/5uac-w243
+Local extract file,datasets\NYPD_Complaint_Data_Current__Year_To_Date__20260901.csv
+Date column used,CMPLNT_FR_DT
+Location column/value (core),BORO_NM = BROOKLYN
+Location column/value (2nd),BORO_NM = MANHATTAN
+Crime category filter,PETIT LARCENY
+Aggregation frequency,W-MON
+Observation window,2025-01-06 to 2026-08-31
+Forecast horizon,12 weeks
+AR lags,4
+ARIMA candidate orders,"[(1, 0, 0), (2, 0, 0), (1, 1, 1), (2, 1, 1), (2, 1, 2), (3, 1, 1)]"
+Selected ARIMA order,"(2, 1, 2)"
+SARIMA seasonal order,"(1,0,1,4)"
+Python / statsmodels versions,3.11.0

@@ -1,0 +1,53 @@
+{
+  "dataset": "Chicago Crimes - 2001 to Present (instructor-frozen extract, accessed 2026-08-31)",
+  "source_url": "https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2",
+  "date_col": "Date",
+  "location_col": "District",
+  "location_value": 12,
+  "second_location_value": 8,
+  "category_col": "Primary Type",
+  "category_value": null,
+  "frequency": "D",
+  "test_periods": 14,
+  "ar_lags": 7,
+  "rolling_horizon": 7,
+  "rolling_step": 7,
+  "seed": 42,
+  "arima_candidates": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ]
+  ],
+  "n_total_periods_loc1": 251,
+  "n_train_loc1": 237,
+  "n_test_loc1": 14,
+  "selected_arima_order_loc1": [
+    1,
+    0,
+    0
+  ],
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0"
+}
