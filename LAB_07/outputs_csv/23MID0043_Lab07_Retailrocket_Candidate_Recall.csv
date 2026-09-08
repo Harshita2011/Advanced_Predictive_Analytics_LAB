@@ -1,0 +1,3 @@
+window,candidate_recall,pct_users_fully_representable,n_users,n_eligible_items
+validation,0.22162162162162163,20.73757349011224,1871,1500
+test,0.16609321238661245,14.911308203991132,1804,1500

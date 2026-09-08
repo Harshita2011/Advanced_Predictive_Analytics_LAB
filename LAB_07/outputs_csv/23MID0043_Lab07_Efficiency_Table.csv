@@ -1,0 +1,5 @@
+System,Training time (s),Scoring latency (ms/user),Model size,Catalog coverage @10 (%),Complexity note
+Popularity,0.0,0.01,3630 item IDs,1.8633540372670807,O(1) sort; purely non-personalized
+Random Forest,9.771666049957275,0.5982891442918135,200 trees,3.6137775268210053,Supervised tabular ranker with time-valid features
+Item-Item CF,0.2721593379974365,2.27402124790787,"(3542, 3542) sparse sim matrix",21.96499153020892,Cosine item-item similarity from co-occurrences
+Matrix Factorization (SVD),0.06943702697753906,1.6943916879407703,20 latent factors,14.370412196499153,Low-rank Truncated SVD on implicit interaction matrix

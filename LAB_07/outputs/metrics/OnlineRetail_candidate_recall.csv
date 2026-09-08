@@ -1,0 +1,3 @@
+Window,total_future_positives,covered_future_positives,candidate_recall,users_total,users_fully_representable,pct_users_fully_representable
+"Validation Target [t1, t2)",53085,51304,0.966450032965998,1618,961,0.5939431396786156
+"Locked Test Target [t2, max)",50985,48372,0.9487496322447779,1557,693,0.44508670520231214

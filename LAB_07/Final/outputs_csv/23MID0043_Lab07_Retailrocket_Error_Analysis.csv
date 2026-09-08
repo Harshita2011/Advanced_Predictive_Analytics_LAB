@@ -1,0 +1,5 @@
+visitorid,history_size,true_future_items,rf_hits@5,pop_hits@5,case_type,Top5_RandomForest,Top5_Popularity,True_future_items
+994820,29,69,1,1,Successful personalized recommendation,"[143416, 461686, 213834, 373600, 82586]","[461686, 119736, 213834, 445351, 48030]","[198784, 385921, 69507, 251396, 78729]"
+171376,1,2,0,1,"Relevant item missed by RF, found by popularity","[461686, 143416, 147684, 373600, 283138]","[461686, 119736, 213834, 445351, 48030]","[218746, 213834]"
+4537,1,1,0,0,RF beats popularity,"[143416, 461686, 147684, 283138, 264179]","[461686, 119736, 213834, 445351, 48030]",[166106]
+4537,1,1,0,0,Sparse / cold-start visitor,"[143416, 461686, 147684, 283138, 264179]","[461686, 119736, 213834, 445351, 48030]",[166106]

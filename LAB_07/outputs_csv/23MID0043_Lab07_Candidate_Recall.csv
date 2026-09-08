@@ -1,0 +1,3 @@
+Window,Total Future Positives,Covered in Candidate Set,Candidate Recall,Users 100% Representable
+"Validation Target [t1, t2)",53085,51304,0.966450032965998,961/1618 (59.39%)
+"Locked Test Target [t2, max)",50985,48372,0.9487496322447779,693/1557 (44.51%)

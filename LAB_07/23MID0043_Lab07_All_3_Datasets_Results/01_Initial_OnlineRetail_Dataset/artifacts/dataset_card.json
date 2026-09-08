@@ -1,0 +1,24 @@
+{
+  "source": "Retailrocket Recommender System Dataset (Kaggle) - Dataset D2 in the lab manual",
+  "access_date": "2026-09-07",
+  "files": [
+    "events.csv",
+    "category_tree.csv",
+    "item_properties_part1.csv",
+    "item_properties_part2.csv"
+  ],
+  "events_rows": 2756101,
+  "unique_visitors": 1407580,
+  "unique_items_in_events": 235061,
+  "date_range": [
+    "2015-05-03 03:00:04.384000",
+    "2015-09-18 02:59:47.788000"
+  ],
+  "event_type_counts": {
+    "view": 2664312,
+    "addtocart": 69332,
+    "transaction": 22457
+  },
+  "categories_in_tree": 1669,
+  "distinct_item_properties_observed": 1104
+}

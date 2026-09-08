@@ -1,0 +1,11 @@
+{
+  "train_end_t1": "2015-08-02 23:30:55.147000064",
+  "val_end_t2": "2015-08-25 22:31:01.628999936",
+  "train_hist_rows": 1929271,
+  "val_future_rows": 413414,
+  "test_future_rows": 413416,
+  "train_transactions": 15637,
+  "val_transactions": 3469,
+  "test_transactions": 3351,
+  "seed": 42
+}

@@ -1,0 +1,5 @@
+System,Training time (s),Scoring latency (ms/user),Model size,Catalog coverage @10 (%)
+Popularity,0.0,0.01,list of item ids,8.333333333333334
+Random Forest,1.100620985031128,0.4820213225728648,200 trees,34.333333333333336
+Item-Item CF,0.004999876022338867,0.12330732483794724,"(300, 300)",10.333333333333334
+Matrix Factorization (SVD),0.01204991340637207,,20 latent factors,58.333333333333336

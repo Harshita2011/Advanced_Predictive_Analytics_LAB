@@ -1,0 +1,2 @@
+Dataset,Raw_Rows,Missing_CustomerID_Removed,Cancelled_Invalid_Removed,Duplicates_Removed,Cleaned_Rows,Cleaned_Cols,Unique_Customers,Unique_Items,Unique_Invoices,Unique_Countries,Min_Date,Max_Date,SHA256
+UCI Online Retail (OnlineRetail.csv),541909,135080,8945,5192,392692,10,4338,3665,18532,37,2010-12-01 08:26:00,2011-12-09 12:50:00,d07aec9960083af2339975a3f9d3b26313b342dcd9f86cce0b919b1cde639a44
