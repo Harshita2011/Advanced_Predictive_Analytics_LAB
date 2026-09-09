@@ -1,3 +1,0 @@
-window,candidate_recall,pct_users_fully_representable,n_users,n_eligible_items
-validation,1.0,100.0,415,300
-test,1.0,100.0,414,300

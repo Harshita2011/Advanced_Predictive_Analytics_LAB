@@ -12,16 +12,31 @@ This repository contains the complete experimental suite, machine learning pipel
 ```
 LAB_07/
 ├── Dataset_1_Initial_OnlineRetail/     # [Dataset 1] Initial Online Retail subset benchmark
+│   ├── 23MID0043_Lab07_Recommender_RF.ipynb
+│   ├── models/ (Trained Random Forest model)
+│   ├── figures/ (11 Exploratory & Diagnostic visual plots)
+│   ├── outputs_csv/ (Evaluation, Ablation, Sensitivity, Uncertainty metrics)
+│   └── artifacts/ (Data cards, Split manifests, Feature schemas)
+│
 ├── Dataset_2_UCI_OnlineRetail_541k/    # [Dataset 2] Full UCI Online Retail Dataset (541,909 rows)
+│   ├── run_lab07_pipeline.py           # End-to-end reproducible pipeline script
+│   ├── 23MID0043_Lab07_Recommender_RF.ipynb
+│   ├── 23MID0043_Lab07_Report.pdf & .docx
+│   ├── models/ (Trained Random Forest model)
+│   ├── figures/ (Full set of 11 high-res visualization figures)
+│   ├── outputs_csv/ (Ranking metrics, ablation, uncertainty tables)
+│   └── artifacts/ (dataset_card.json, split_manifest.json, feature_schema.json)
+│
 ├── Dataset_3_Retailrocket/             # [Dataset 3] Retailrocket E-commerce Clickstream & Events
-├── 23MID0043_Lab07_All_3_Datasets_Results/ # Master consolidated directory (all 3 datasets)
-│   ├── 01_Initial_OnlineRetail_Dataset/
-│   ├── 02_Real_UCI_OnlineRetail_Dataset/
-│   └── 03_Retailrocket_Dataset/
+│   ├── 23MID0043_Lab07_Retailrocket_Recommender.ipynb
+│   ├── models/ (Trained Retailrocket RF recommender model)
+│   ├── figures/ (12 PNG conversion funnel, category & ranking plots)
+│   └── outputs_csv/ (Behavioral recommendations & uncertainty metrics)
+│
 ├── 23MID0043_Lab07_Report.pdf          # 16-Page Comprehensive Lab Report (PDF)
 ├── 23MID0043_Lab07_Report.docx         # 16-Page Comprehensive Lab Report (Word)
 ├── 23MID0043_Lab07_All_3_Datasets_Results.zip # Complete compressed benchmark archive
-└── run_lab07_pipeline.py               # Automated end-to-end Python pipeline
+└── run_lab07_pipeline.py               # Main Python pipeline script
 ```
 
 ---
@@ -103,12 +118,7 @@ LAB_07/
 python run_lab07_pipeline.py
 ```
 
-### 2. Run Figures Generation:
-```bash
-python generate_figure4_rfm.py
-```
-
-### 3. Open and Run Jupyter Notebooks:
+### 2. Open and Run Jupyter Notebooks:
 ```bash
 jupyter notebook Dataset_1_Initial_OnlineRetail/23MID0043_Lab07_Recommender_RF.ipynb
 jupyter notebook Dataset_2_UCI_OnlineRetail_541k/23MID0043_Lab07_Recommender_RF.ipynb
