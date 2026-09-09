@@ -1,0 +1,10 @@
+{
+  "python": "3.11.0",
+  "sklearn": "1.8.0",
+  "pandas": "2.3.3",
+  "numpy": "1.26.4",
+  "seed": 42,
+  "registration_number": "23MID0043",
+  "student_name": "Harshita Bogineni",
+  "dataset": "Retailrocket Recommender System Dataset (D2)"
+}

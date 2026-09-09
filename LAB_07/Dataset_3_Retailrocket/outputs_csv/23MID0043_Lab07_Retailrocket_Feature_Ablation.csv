@@ -1,0 +1,5 @@
+Feature set,Validation Recall@10
+All core features,0.9184439960511928
+Without pair history,0.9154032333950456
+Without visitor activity,0.9251373264624719
+Without item popularity/conversion,0.7945256011674887
